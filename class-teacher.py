@@ -1,5 +1,6 @@
 # coding=UTF-8
 
+
 class SchoolMember:
     '''代表任何学校里的成员。'''
     def __init__(self, name, age):

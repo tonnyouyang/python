@@ -12,8 +12,7 @@ f.write(poem)
 f.close()
 # 如果没有特别指定，
 # 将假定启用默认的阅读（'r'ead）模式
-f = open('poem.txt')
-for line in f:
+for line in open('poem.txt'):
     print(line, end='')
 # while f.readline()：
 #     print(f.readline(), end='')
@@ -24,4 +23,3 @@ for line in f:
 # # # 都已经有了换行符
 # # # 因为它是从一个文件中进行读取的
 # # 关闭文件
-f.close()
